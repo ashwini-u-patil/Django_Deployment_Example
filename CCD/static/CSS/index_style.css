@@ -1,0 +1,527 @@
+body{
+          background-color: #a0855b;
+          font-family: 'Bellota', cursive;
+          font-size: small;
+          margin: 0px
+        }
+
+header.top{
+                  background-color: #603813;
+                  margin: 10px 10px 0px 10px;
+                  height: 108px;
+                 }
+
+header.top img#headerSlogan{
+                                                 float: right;
+                                               }
+
+#headerlogo{
+
+}
+
+nav{
+        background-color: #603813;
+        margin: 10px 10px 0px 10px;
+      }
+
+nav ul{
+           list-style-type:none;
+           margin: 0px;
+           padding: 5px 0px 5px 0px;
+          }
+
+nav ul li{
+               display: inline;
+               padding: 5px 10px 5px 10px;
+              font-family: 'Pacifico', cursive;
+              font-size: 20px;
+              color: #f5e4c3;
+             }
+
+div#tableContainer{
+                                 display: table;
+                                 border-spacing: 10px;
+                                }
+
+div#tableRow{
+                                 display: table-row;
+                                }
+
+section#drinks{
+                          display: table-cell;
+                          background-color: #603813;
+                          color: #fdffe7;
+                          padding: 15px;
+                          width:20%;
+                          vertical-align: top;
+                        }
+
+ section#drinks h1{
+                                    color: #f5e4c3;
+                                   }
+
+section#main{
+                          display: table-cell;
+                          background-color: #fdffe7;
+                          color: #603813;
+                          padding: 15px;
+                          font-size: 105%;
+                        }
+
+aside{
+          display: table-cell;
+          background-color: #fdffe7;
+          color: #603813;
+          font-size: 105%;
+          vertical-align: top;
+          padding: 15px;
+         }
+
+h1{
+      font-size: 200%;
+      font-family: 'Pacifico', cursive;
+     }
+
+footer{
+                  background-color: #603813;
+                  color: #f5e4c3;
+                  margin: 0px 10px 10px 10px;
+                  text-align: center;
+                  padding: 15px;
+                  font-size: 15px;
+                 }
+
+.slogan{
+            font-family: 'Courgette', cursive;
+            line-height: 1.8em;
+            font-size: 115%;
+            }
+
+.beanheading{
+                      text-align: center;
+                     }
+
+a:link {
+            color: #af460f;
+            text-decoration: none;
+           }
+
+a:visited {
+            text-decoration: none;
+            color: #af460f;
+           }
+
+a:hover {
+            text-decoration: none;
+            color: #af460f;
+             border-bottom:    thin dotted #af460f;
+           }
+
+p{
+    font-size: 125%;
+   }
+
+nav ul li a:link, nav ul li a:visited{
+               color: #f5e4c3;
+               border-bottom: none;
+}
+
+header.top a:hover{
+                                     border-bottom:none;
+                               }
+
+li.selected {
+                             background-color: #f18867;
+}
+
+/* RESERVATION PAGE */
+
+#reservationpg{
+  background-color: #fdffe7;
+  margin: 10px 10px;
+  color:#603813;
+  padding-left: 30px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+/* CONTACT PAGE */
+
+#contact{
+  background-color: #fdffe7;
+  margin: 10px 10px;
+  color:#603813;
+  padding-left: 30px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+/* ABOUT SECTION */
+
+.aboutmain{
+  text-align: center;
+  background-image: url('images/A1boutBG.jpg');
+  background-opacity: 0.5;
+  background-repeat: no-repeat;
+background-position: center;
+  background-size: cover;
+  color:#603813;
+    margin: 10px 10px;
+    padding: 10px;
+}
+
+.abtpara{
+  margin-bottom: 0px;
+  color:#603813;
+  margin-top: 0px;
+  font-size: 20px;
+}
+
+.abthead{
+  color:#603813;
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+.awdhead{
+  color: #fdffe7;
+  font-size: 30px;
+}
+
+.btmpline{
+  font-size: 25px;
+}
+
+.abtp{
+  font-size: 20px;
+}
+
+.awards{
+  text-align: left;
+  font-size: 20px;
+}
+
+.awafr{
+text-align: right;
+font-size: 20px;
+}
+
+.maintab{
+display: table;
+}
+
+.maintabrow{
+  display: table-row;
+}
+
+.tableft{
+  align-items: flex-start;
+  display: table-cell;
+}
+
+.tabright{
+  display: table-cell;
+  padding-left: 400px;
+}
+
+.linehr{
+  width: 1000px;
+  border: 5px solid #603813;
+}
+
+/* MENU PAGE */
+
+.menudiv{
+  background-color: #fdffe7;
+  text-align: center;
+  margin: 10px 10px;
+}
+
+.menuhead{
+  color:#603813;
+  font-size: 30px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.menhr{
+  width: 100px;
+    border: 5px solid #603813;
+    margin-bottom: 0px;
+}
+
+.menupara{
+  color:#603813;
+  margin-top: 0px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.menutable{
+  display: table;
+}
+
+.menurow{
+  display: table-row;
+}
+
+.menuleft{
+  display: table-cell;
+  padding: 0px 135px;
+  padding-right: 0px;
+  width: 600px;
+}
+
+.menurow img{
+  float: left;
+}
+
+.menuright{
+  display: table-cell;
+width: 600px;
+}
+
+.menuc{
+  position: relative;
+  text-align: left;
+  margin: 0px;
+  font-weight: lighter;
+}
+
+.menuimg{
+  margin-right: 40px;
+}
+
+.infomenu{
+  text-align: left;
+  margin: 0px;
+  margin-bottom: 40px;
+}
+
+.menurow ul{
+  list-style-type:none;
+  margin: 0px;
+  padding: 5px 0px 5px 0px;
+}
+
+.menurow ul li{
+  display: inline;
+  padding: 5px 10px 50px 10px;
+  color:#603813;
+}
+
+.bevg{
+  color:#603813;
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+/* LOCATION PAGE */
+
+.locationpg{
+  color:#603813;
+  background-color: #fdffe7;
+  margin: 10px 0px;
+  padding-bottom: 20px;
+
+}
+
+.lochead{
+  text-align: center;
+  font-size: 40px;
+  padding-top: 10px;
+}
+
+.firstloc{
+  margin-left: 150px;
+}
+
+.forthloc{
+margin-left: 150px;
+margin-top: 20px;
+}
+
+.locnam{
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.locadd{
+  margin-top: 0px;
+}
+
+.loccont{
+  display: table;
+}
+
+.locrow{
+  display: table-row;
+}
+
+.locleft{
+  display: table-cell;
+
+}
+
+.locright{
+  display: table-cell;
+
+}
+
+.rowlimg{
+    margin-left: 150px;
+}
+/* MULTIPLE PAGES STYLING */
+
+.editedform{
+  padding-top: 16px!important;
+    padding-bottom: 16px!important;
+    border: 1px solid #ccc!important;
+    padding: 8px;
+    color:#603813;
+    background-color: #fdffe7;
+}
+
+.submitmate:hover{
+  background-color: #603813;
+  color:  #fdffe7;
+}
+
+/* MUSIC Box Styling */
+
+#title {
+  font-size: 5rem;
+  color: #DBEDF3;
+font-family: 'Bellota', cursive;
+  text-shadow: 3px 0 #DA0463;
+  text-align: center;
+
+}
+
+footer {
+  color: #DBEDF3;
+font-family: 'Bellota', cursive;
+}
+
+.w {
+background-image: url("images/tom1.png");
+}
+
+.a {
+background-image: url("images/tom2.png");
+}
+
+.s {
+background-image: url("images/tom3.png");
+}
+
+.d {
+background-image: url("images/tom4.png");
+}
+
+.j {
+background-image: url("images/snare.png");
+}
+
+.k {
+background-image: url("images/crash.png");
+}
+
+.l {
+background-image: url("images/kick.png");
+}
+
+.set {
+  margin: 30px 0px 120px 0px;
+  text-align: center;
+  font-family: 'Bellota', cursive;
+
+}
+
+.musicb{
+  background-image: url('images/A1boutBG.jpg');
+  background-opacity: 0.5;
+  background-repeat: no-repeat;
+background-position: center;
+  background-size: cover;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+
+/* BEAN MACHINE */
+
+form {
+	display: table;
+	padding: 10px;
+	border: thin dotted #7e7e7e;
+	background-color: #e1ceb8;
+  margin-left: 40px;
+  margin-bottom: 5px;
+}
+
+.machineh1{
+  margin-left: 40px;
+  font-size: 300%;
+  font-family: 'Pacifico', cursive;
+}
+
+.machineh2{
+  margin-left: 40px;
+}
+
+.beanp{
+  margin-left: 40px;
+  padding: 0px;
+  margin-top: 0px;
+}
+
+form textarea {
+	width: 500px;
+	height: 200px;
+}
+
+div.tableRow {
+	display: table-row;
+}
+
+div.tableRow p {
+	display: table-cell;
+	vertical-align: top;
+	padding: 3px;
+}
+div.tableRow p:first-child {
+	text-align: right;
+}
+p.heading {
+	font-weight: bold;
+}

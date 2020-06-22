@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-static-top">
+
+    <div class="container">
+      <ul class="nav navbar-nav">
+        <li>
+          <a class="navbar-brand" href="{% url 'index' %}">Django</a>
+        </li>
+        <li>
+          <a class="nav-link" href="{% url 'admin:index' %}">Admin</a>
+        </li>
+        <li>
+          <a class="nav-link" href="{% url 'Coffee_Shop:register' %}">Registration</a>
+        </li>
+        {% if user.is_authenticated %}
+        <li>
+          <a class="nav-link" href="{% url 'logout' %}">Log out</a>
+        </li>
+        {% else %}
+        <li>
+          <a class="nav-link" href="{% url 'Coffee_Shop:user_login' %}">Login</a>
+        </li>
+        {% endif %}
+      </ul>
+    </div>
+  </nav>
+    <div class="container">
+      {% block body_block %}
+        <!-- Anthing Outside of tis will be inherited if you extend -->
+      {% endblock %}
+    </div>
+  </body>
+</html>

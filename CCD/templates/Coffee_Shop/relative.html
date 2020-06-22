@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+{% extends "Coffee_Shop/base.html" %}
+  {% block body_block %}
+    <h1>This is relative page</h1>
+    <h2>Example of template inheritance</h2>
+    <a href="{% url 'Coffee_Shop:other' %}">Other page</a>
+    <a href="{% url 'admin:index' %}">Admin Page</a>
+    <a href="{% url 'index' %}">Link to index</a>
+  {% endblock %}
